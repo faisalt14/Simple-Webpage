@@ -51,25 +51,25 @@
             </tr>
         </table>
 
-        <form>
+        <form action="https://ibs.utm.utoronto.ca/csc309/a1/submit" method="POST" enctype="multipart/form-data">
             
             <label for="textbox">Feedback</label>
-            <textarea id="textbox" name="feedback" placeholder="Enter your feedback here"></textarea>
+            <textarea id="textbox" name="feedback" placeholder="Enter your feedback here" required></textarea>
 
             <label for='email'>Email</label>
-            <input id='email' type="email" name="email">
+            <input id='email' type="email" name="email" required>
 
             <label for='countries'>Country</label>
-            <select id='countries' name='country'>
-                <option value="----">----</option>
-                <option value="Canada">Canada</option>
-                <option value="United States">United States</option>
+            <select id='countries' name='country' required>
+                <option value="">----</option>
+                <option value="ca">Canada</option>
+                <option value="us">United States</option>
             </select>
 
             <label for='attachment'>Attachment</label>
-            <input type="file" id="attachment" name="attachments">
+            <input type="file" id="attachment" name="attachments" required>
 
-            <input type="checkbox" id="checkbox" name="acknowledge">
+            <input type="checkbox" id="checkbox" name="acknowledge" required>
             <label for="checkbox">I agree to the terms and conditions</label>
 
             <input type="submit" value="Send Feedback">
