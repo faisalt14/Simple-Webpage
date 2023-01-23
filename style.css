@@ -18,4 +18,13 @@ ul li {
     font-family: 'Roboto', sans-serif;
 }
 
+table.courseTable{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+
 
