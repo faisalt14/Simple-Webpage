@@ -56,31 +56,46 @@
             </tr>
         </table>
 
+        
         <form action="https://ibs.utm.utoronto.ca/csc309/a1/submit" method="POST" enctype="multipart/form-data">
             
-            <label for="textbox">Feedback</label>
-            <textarea id="textbox" name="feedback" placeholder="Enter your feedback here" required></textarea>
+            <div class="feedbackContainer"> 
 
-            <label for='email'>Email</label>
-            <input id='email' type="email" name="email" required>
+                <div class="column">
+                    <label for="textbox">Feedback</label>
+                    <textarea id="textbox" name="feedback" placeholder="Enter your feedback here" required></textarea>
+                    <br>
+                
+                
+                    <label for='countries'>Country</label>
+                    <select id='countries' name='country' required>
+                        <option value="">----</option>
+                        <option value="ca">Canada</option>
+                        <option value="us">United States</option>
+                    </select>
+                </div>
 
-            <label for='countries'>Country</label>
-            <select id='countries' name='country' required>
-                <option value="">----</option>
-                <option value="ca">Canada</option>
-                <option value="us">United States</option>
-            </select>
+                <div class="column">
+                    <label for='email'>Email</label>
+                    <input id='email' type="email" name="email" required>
+                    <br>
 
-            <label for='attachment'>Attachment</label>
-            <input type="file" id="attachment" name="attachments" required>
+                    <label for='attachment'>Attachment</label>
+                    <input type="file" id="attachment" name="attachments" required>
+                </div>
+            </div>
 
+            <!-- <br> -->
             <input type="checkbox" id="checkbox" name="acknowledge" required>
             <label for="checkbox">I agree to the terms and conditions</label>
 
+
+            <br>
             <input type="submit" value="Send Feedback">
 
 
         </form>
+        
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/9hh8qaajIXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
