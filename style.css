@@ -18,10 +18,20 @@ ul li {
     font-family: 'Roboto', sans-serif;
 }
 
-table.courseTable{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+.courseTable{
+    border-collapse: collapse;
+    text-align: center;
+    border: solid 1px black;
+
+
+}
+
+.courseTable th {
+    background-color: orange;
+}
+
+.courseTable .row{
+    border-bottom: solid 1px black;
 }
 
 
