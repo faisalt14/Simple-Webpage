@@ -5,103 +5,117 @@
     </head>
     
     <body>
-        <div id="sticky">Hello Visitors</div>
-        <h1>Faisal Mehmood</h1>
-        <h2>mehmoo33</h2>
+        <div class="sticky">Hello Visitors</div>
 
-        <ul>
-            <li>A1 is worth 10%</li>
-            <li>A2 is worth 20%</li>
-            <li>A3 is worth 15%</li>
-        </ul>
+        <div class="container">
 
-        <br>
-
-        <details>
-            <summary> Fact</summary>
-            <p>I'm <b>a</b> <s>robot</s> <mark>human</mark></p>
-        </details>
-
+            <div class="column">
         
-        <label for='309Progress'> <span title='Programming on the web'>CSC309</span> progress so far</label>   
-        <progress id='309Progress' value='1' max='12'></progress>
+                <h1>Faisal Mehmood</h1>
+                <h2>mehmoo33</h2>
 
-        <table class="courseTable">
-           
-            <tr class="row">
-                <th>Course</th>
-                <th>Year</th>
-                <th>Semester</th>
-                <th>Assignments</th>
-            </tr>
-           
-            
-            <tr class="row">
-                <td>CSC309</td>
-                <td>2023</td>
-                <td>Winter</td>
-                <td>3</td>
-            </tr>
-            <tr class="row">
-                <td>CSC209</td>
-                <td>2022</td>
-                <td>Summer</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-            </tr>
-        </table>
+                <ul>
+                    <li>A1 is worth 10%</li>
+                    <li>A2 is worth 20%</li>
+                    <li>A3 is worth 15%</li>
+                </ul>
 
-        
-        <form action="https://ibs.utm.utoronto.ca/csc309/a1/submit" method="POST" enctype="multipart/form-data">
-            
-            <div class="feedbackContainer"> 
+                <br>
 
-                <div class="column">
-                    <label for="textbox">Feedback</label>
-                    <textarea id="textbox" name="feedback" placeholder="Enter your feedback here" required></textarea>
-                    <br>
+                <details>
+                    <summary> Fact</summary>
+                    <p>I'm <b>a</b> <s>robot</s> <mark>human</mark></p>
+                </details>
+
                 
+                <label for='309Progress'> <span title='Programming on the web'>CSC309</span> progress so far</label>   
+                <progress id='309Progress' value='1' max='12'></progress>
+
+                <table class="courseTable">
                 
-                    <label for='countries'>Country</label>
-                    <select id='countries' name='country' required>
-                        <option value="">----</option>
-                        <option value="ca">Canada</option>
-                        <option value="us">United States</option>
-                    </select>
-                </div>
+                    <tr class="row">
+                        <th>Course</th>
+                        <th>Year</th>
+                        <th>Semester</th>
+                        <th>Assignments</th>
+                    </tr>
+                
+                    
+                    <tr class="row">
+                        <td>CSC309</td>
+                        <td>2023</td>
+                        <td>Winter</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="row">
+                        <td>CSC209</td>
+                        <td>2022</td>
+                        <td>Summer</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </table>
 
-                <div class="column">
-                    <label for='email'>Email</label>
-                    <input id='email' type="email" name="email" required>
+                
+                <form action="https://ibs.utm.utoronto.ca/csc309/a1/submit" method="POST" enctype="multipart/form-data">
+                    
+                    <div class="feedbackContainer"> 
+
+                        <div class="feedbackColumn">
+                            <label for="textbox">Feedback</label>
+                            <textarea id="textbox" name="feedback" placeholder="Enter your feedback here" required></textarea>
+                            <br>
+                        
+                        
+                            <label for='countries'>Country</label>
+                            <select id='countries' name='country' required>
+                                <option value="">----</option>
+                                <option value="ca">Canada</option>
+                                <option value="us">United States</option>
+                            </select>
+                        </div>
+
+                        <div class="feedbackColumn">
+                            <label for='email'>Email</label>
+                            <input id='email' type="email" name="email" required>
+                            <br>
+
+                            <label for='attachment'>Attachment</label>
+                            <input type="file" id="attachment" name="attachments" required>
+                        </div>
+                    </div>
+
+                    <!-- <br> -->
+                    <input type="checkbox" id="checkbox" name="acknowledge" required>
+                    <label for="checkbox">I agree to the terms and conditions</label>
+
+
                     <br>
+                    <input type="submit" value="Send Feedback">
 
-                    <label for='attachment'>Attachment</label>
-                    <input type="file" id="attachment" name="attachments" required>
-                </div>
+
+                </form>
+
             </div>
 
-            <!-- <br> -->
-            <input type="checkbox" id="checkbox" name="acknowledge" required>
-            <label for="checkbox">I agree to the terms and conditions</label>
-
-
-            <br>
-            <input type="submit" value="Send Feedback">
-
-
-        </form>
+        
         
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9hh8qaajIXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="column" id="rightColumn">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9hh8qaajIXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+        </div>
 
         <footer>
             <a href="mailto:faisal.mehmood@mail.utoronto.ca?subject=Bug Found!&body=I found the following bug on your website">faisal.mehmood@mail.utoronto.ca</a>
         </footer>
+
 
 
 
