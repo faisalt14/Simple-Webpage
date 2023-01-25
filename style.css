@@ -47,6 +47,7 @@ ul li {
 
 .column label{
     text-align: left;
+    flex-grow: 30%;
 }
 
 
