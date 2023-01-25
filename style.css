@@ -48,7 +48,7 @@ ul li {
 .feedbackColumn{
     flex: 50%;
     padding: 10px;
-    white-space: nowrap;  
+    /* white-space: nowrap;   */
 }
 
 .feedbackColumn label{
@@ -68,13 +68,13 @@ ul li {
 
 .column {
     flex: 50%;
+    
 }
 
 .container .column#rightColumn{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     
     background-color: plum;
     margin-right: -0.5em;
