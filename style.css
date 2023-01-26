@@ -7,8 +7,7 @@ div.sticky{
     margin-top: -0.5em;
     margin-left: -0.5em;
     margin-right: -0.5em; 
-    text-align: center;
-    
+    text-align: center;   
 }
 
 ul li {
@@ -38,8 +37,6 @@ ul li {
     border-bottom: solid 1px black;
 }
 
-
-
 .feedbackContainer{
     display: flex;
     
@@ -48,7 +45,6 @@ ul li {
 .feedbackColumn{
     flex: 50%;
     padding: 5px;
-    /* white-space: nowrap;   */
 }
 
 .feedbackColumn label{
@@ -56,16 +52,14 @@ ul li {
     flex-grow: 30%;
 }
 
-
 .feedbackColumn textarea, select, input, label{
     margin-left: 3em;
     margin-bottom: 1em;
-
 }
 
 .container {
     display: flex;
-    height: 100%;   
+    height: 100vh;   
 }
 
 .column {
@@ -78,7 +72,7 @@ ul li {
     justify-content: center;
     min-width: 560px;
     background-color: plum;
-    margin-right: -0.5em;    
+    margin-right: -0.5em; 
 }
 
 .centerAlign {
@@ -92,32 +86,30 @@ progress {
     margin-left: 1em;
 }
 
-
 label {
     vertical-align: top;
 }
 
 textarea{
-    /* width: 250px; */
-    width: 20em;
-    height: 3em;
-    margin-left: 1em;
+    width: 230px;
+    height: 40px;
+    margin-left: 0.5em;
 }
 
 select{
-    /* width: 250px; */
-    width: 20em;
+    width: 237px;
     margin-left: 4em;
 }
 
 input#email{
-    width: 20em;
-    margin-left: 5em;
+    width: 237px;
+    margin-left: 2em;
     margin-right: 2.5em;
+    margin-bottom: 3em;
 }
 
 input#attachment{
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 label#progressLabel{
@@ -127,6 +119,10 @@ label#progressLabel{
 label#checkboxLabel{
     padding-bottom: 0.65em;
 }
+
+
+
+
 
 
 
