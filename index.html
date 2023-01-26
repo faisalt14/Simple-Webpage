@@ -11,10 +11,10 @@
 
             <div class="column">
         
-                <h1>Faisal Mehmood</h1>
-                <h2>mehmoo33</h2>
+                <h1 class="centerAlign">Faisal Mehmood</h1>
+                <h2 class="centerAlign">mehmoo33</h2>
 
-                <ul>
+                <ul class="centerAlign">
                     <li>A1 is worth 10%</li>
                     <li>A2 is worth 20%</li>
                     <li>A3 is worth 15%</li>
@@ -22,15 +22,21 @@
 
                 <br>
 
-                <details>
-                    <summary> Fact</summary>
-                    <p>I'm <b>a</b> <s>robot</s> <mark>human</mark></p>
-                </details>
-
                 
+                <div class="centerAlign"> 
+                    <details >
+                        <summary>Fact</summary>
+                        <p>I'm <b>a</b> <s>robot</s> <mark>human</mark></p>
+                    </details>
+                </div>
+                
+                
+                <div class="centerAlign">
                 <label for='309Progress'> <span title='Programming on the web'>CSC309</span> progress so far</label>   
                 <progress id='309Progress' value='1' max='12'></progress>
-
+                </div>
+                
+                <div class="centerAlign"> 
                 <table class="courseTable">
                 
                     <tr class="row">
@@ -60,6 +66,7 @@
                         <td>...</td>
                     </tr>
                 </table>
+                </div> 
 
                 
                 <form action="https://ibs.utm.utoronto.ca/csc309/a1/submit" method="POST" enctype="multipart/form-data">
@@ -91,13 +98,15 @@
                     </div>
 
                     <!-- <br> -->
-                    <input type="checkbox" id="checkbox" name="acknowledge" required>
-                    <label for="checkbox">I agree to the terms and conditions</label>
+                    <div class="centerAlign"> 
+                        <input type="checkbox" id="checkbox" name="acknowledge" required>
+                        <label  class="centerAlign" for="checkbox">I agree to the terms and conditions</label>
+                    </div>
 
-
-                    <br>
-                    <input type="submit" value="Send Feedback">
-
+                    
+                    <div class="centerAlign"> 
+                        <input type="submit" value="Send Feedback">
+                    </div>
 
                 </form>
 
@@ -112,7 +121,7 @@
 
         </div>
 
-        <footer>
+        <footer class="centerAlign" >
             <a href="mailto:faisal.mehmood@mail.utoronto.ca?subject=Bug Found!&body=I found the following bug on your website">faisal.mehmood@mail.utoronto.ca</a>
         </footer>
 

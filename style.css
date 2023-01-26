@@ -7,6 +7,7 @@ div.sticky{
     margin-top: -0.5em;
     margin-left: -0.5em;
     margin-right: -0.5em; 
+    text-align: center;
     
 }
 
@@ -27,7 +28,6 @@ ul li {
     text-align: center;
     border: solid 1px black;
     margin: 1em;
-
 }
 
 .courseTable th {
@@ -75,11 +75,27 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    min-width: 560px;
     background-color: plum;
-    margin-right: -0.5em;
-       
+    margin-right: -0.5em;    
 }
+
+.centerAlign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+progress {
+    margin-left: 1em;
+}
+
+
+
+
+
+
 
 
 
